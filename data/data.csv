@@ -1,5 +1,5 @@
-name, age
-Jack, 22
-Peter, 19
-Peter, 19
-Peter, 19
+name,age,id,email,major,gpa 
+Jack,22,1001,jack@example.com,Computer Science,3.4
+Peter,19,1001,jack@example.com,Computer Science,3.4
+Peter,19,1001,jack@example.com,Computer Science,3.4
+Peter,19,1001,jack@example.com,Computer Science,3.4
