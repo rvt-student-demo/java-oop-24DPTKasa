@@ -28,6 +28,8 @@ public class TodoList {
 
         public void remove(int number)
         {
+            todolist.remove(0);
+            System.out.printf("It removed! %n" + todolist);
 
         }    
     

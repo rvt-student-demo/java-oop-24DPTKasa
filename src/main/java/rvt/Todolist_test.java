@@ -7,6 +7,7 @@ public class Todolist_test {
         Scanner scanner = new Scanner(System.in); 
         list.add(scanner.nextLine());
         list.print();
+        list.remove(0);
         }
     }
 }
