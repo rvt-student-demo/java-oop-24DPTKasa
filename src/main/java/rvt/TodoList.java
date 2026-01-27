@@ -11,6 +11,7 @@ public class TodoList {
         public void add(String task)
         {
             todolist.add(task);
+            System.out.println(" '" + task + "'" + "added!");
             
         }
     
@@ -19,8 +20,9 @@ public class TodoList {
         {
             for(int i = 0; todolist.size() > i; i++) {
                 System.out.println((i+1) + ":" + todolist);
+                }
             }
-        }
+        
         
 
 
