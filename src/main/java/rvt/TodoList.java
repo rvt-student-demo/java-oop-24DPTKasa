@@ -28,7 +28,7 @@ public class TodoList {
 
         public void remove(int number)
         {
-            todolist.remove(0);
+            todolist.remove(number);
             System.out.printf("It removed! %n" + todolist);
 
         }    
