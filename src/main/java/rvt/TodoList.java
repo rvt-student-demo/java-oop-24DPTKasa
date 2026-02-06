@@ -10,7 +10,7 @@ public class TodoList {
 
         public void add(String task)
         {
-            todolist.add(task);
+            todolist.add(task);  // adds the word to list
             System.out.println(" '" + task + "'" + "added!");
             
         }
@@ -19,8 +19,8 @@ public class TodoList {
         public void print()
         {
             for(int i = 0; todolist.size() > i; i++) {
-                System.out.println((i+1) + ":" + todolist);
-                }
+                System.out.println((i+1) + ":" + todolist.get(i));
+                } // prints the list until all list is printed 
             }
         
         
