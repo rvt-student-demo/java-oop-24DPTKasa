@@ -18,7 +18,7 @@ public class UserInterface {
                     list.print(); // prints it
             } 
                     else if(command.equals("remove")) { // checking if user wants to remove smth from the list
-                        System.out.println("Which task should be removed?(write number): "); 
+                        System.out.println("Which task should be removed?(write number (1 = 0, 2 = 1 ...)): "); 
                         int number = Integer.valueOf(scanner.nextLine()); // takes the input
                         list.remove(number); //  removing from the list by number                
             } 
