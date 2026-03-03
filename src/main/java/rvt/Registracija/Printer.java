@@ -1,4 +1,4 @@
-package rvt;
+package rvt.Registracija;
 
 public class Printer {
     public static void main(String[] args) {
