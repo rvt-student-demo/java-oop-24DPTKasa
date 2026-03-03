@@ -1,4 +1,4 @@
-package rvt;
+package rvt.TodoList;
 
 import java.io.PrintWriter;
 import java.nio.file.Paths;
