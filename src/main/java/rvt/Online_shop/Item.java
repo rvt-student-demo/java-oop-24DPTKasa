@@ -12,13 +12,15 @@ public class Item {
         // this.unitPrice = unitPrice;
     }
 
-    public int price(){}
+    public int price(){
+        return this.qty * this.unitPrice;
+    }
 
     public void increaseQuantity(){
-
+        this.qty++;
     }
 
     public String toString(){
-
+        return this.product + ": " + this.qty;
     }
 }
