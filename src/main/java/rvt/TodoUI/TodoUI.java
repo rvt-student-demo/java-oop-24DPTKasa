@@ -1,8 +1,8 @@
-package rvt;
+package rvt.TodoUI;
 import java.util.*;
 import javax.swing.JFrame;
-public class App {
-    public class TodoUI{
+
+public class TodoUI{
         private JFrame window;
         
         public TodoUI(){
@@ -19,4 +19,3 @@ public class App {
             window.setVisible(true);
         }
     }
-}
